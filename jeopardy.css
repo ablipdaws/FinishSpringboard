@@ -1,0 +1,74 @@
+/* Overall page */
+body {
+  background: #001f3f; /* Jeopardy blue */
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Start button */
+#start {
+  background: #ffcc00;
+  color: #001f3f;
+  font-weight: bold;
+  border: none;
+  padding: 12px 25px;
+  font-size: 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+#start:hover {
+  background: #ffdb4d;
+}
+
+/* Board table */
+#board {
+  margin: 0 auto;
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 90%;
+  max-width: 1000px;
+}
+
+/* Category headers */
+#board th {
+  background: #003d7a;
+  color: #ffcc00;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 15px 5px;
+  border: 3px solid #ffcc00;
+  text-transform: uppercase;
+}
+
+/* Clue cells */
+#board td {
+  background: #004b99;
+  border: 3px solid #ffcc00;
+  height: 110px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #ffcc00;
+  cursor: pointer;
+  vertical-align: middle;
+  text-align: center;
+}
+
+/* When showing question */
+#board td.showing-question {
+  background: #001f3f;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+}
+
+/* When showing answer */
+#board td.showing-answer {
+  background: #003d7a;
+  color: #ffcc00;
+  font-size: 20px;
+  padding: 10px;
+}
