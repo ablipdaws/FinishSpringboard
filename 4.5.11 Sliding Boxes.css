@@ -1,0 +1,104 @@
+.exercise-1 {
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
+
+.exercise-1 div {
+  position: absolute;
+}
+
+.exercise-1 .red {
+  top: 0;
+  left: 0;
+}
+
+.exercise-1 .green {
+  top: 110px;
+  left: 20px;
+}
+
+.exercise-1 .blue {
+  top: 200px;
+  left: 40px;
+}
+
+.exercise-1 .yellow {
+  top: 260px;
+  left: 60px;
+}
+
+//Exercise 2
+.exercise-2 {
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
+
+.exercise-2 div {
+  position: absolute;
+}
+
+.exercise-2 .green {
+  top: 20px;
+  left: 20px;
+}
+
+.exercise-2 .blue {
+  top: 80px;
+  left: 80px;
+}
+
+.exercise-2 .yellow {
+  top: 140px;
+  left: 140px;
+}
+
+//Exercise 3
+.exercise-3 {
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
+
+.exercise-3 div {
+  position: absolute;
+}
+
+.exercise-3 .green {
+  top: 110px;
+  left: 110px;
+}
+
+.exercise-3 .blue {
+  top: 40px;
+  left: 40px;
+}
+
+.exercise-3 .yellow {
+  top: 200px;
+  left: 200px;
+}
+
+//Exercise 4
+.exercise-4 {
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
+
+.exercise-4 div {
+  position: absolute;
+}
+
+.exercise-4 .blue {
+  top: 100px;
+  left: 100px;
+  z-index: 2;
+}
+
+.exercise-4 .yellow {
+  top: 120px;
+  left: 120px;
+  z-index: 3;
+}
